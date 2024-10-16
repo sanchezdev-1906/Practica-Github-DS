@@ -5,14 +5,14 @@ export default function Item(conten, iconStr) {
     div.classList.add("item")
     div.innerHTML = `
     <div>
-        <i date-lucide="${iconStr}"></i>
+        <i data-lucide="${iconStr}"></i>
         <spam>${conten}</spam>
     </div>
     `
 
     let btnDelete = document.createElement("button")
     btnDelete.innerHTML = `
-    <i date-lucide="circle-x">i</i>
+    <i data-lucide="x-circle"></i>
     `
     btnDelete.addEventListener("click", () => {
         div.remove()
