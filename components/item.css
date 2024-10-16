@@ -9,10 +9,11 @@
 }
 
 .item>button {
-    background-color: red;
     border: none;
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-    color: white;
+    color: red;
+    padding: 0;
+    background: transparent;
 }
